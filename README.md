@@ -31,11 +31,12 @@ Fetching retrieves changes from a remote repository to your local repository, bu
 ### Git Pull: 
 Pull, on the other hand, not only fetches changes but also merges them into your current working branch. It's a combination of git fetch and git merge.
 
-### Git Rebase:
+## Git Rebase:
 Git rebase is a command used to integrate changes from one branch into another by moving or combining a sequence of commits to a new base commit. This helps create a linear, cleaner commit history. In simple terms, it's like taking your changes and putting them on top of the latest changes from another branch.
 
     Command: git rebase <base_branch>
 
+## Explain in simple terms git cherry-pick and the command for it 
 
 ### Git Cherry-pick:
 Git cherry-pick is a command that allows you to apply a specific commit from one branch to another. It's useful when you want to pick and choose individual commits and apply them to a different branch.
